@@ -1,18 +1,17 @@
 import React from 'react';
 import './Tweet.css';
 
-export const Tweet = () => {
-
+export const Tweet = (props) => {
   return (
     <article className="tweet">
       <header>
         <div className="avatar">
-          <img src="https://i.imgur.com/73hZDYK.png" alt="user_avatar" />
-          <span className="name">Newton</span>
+          <img src={props.avatar} alt="user_avatar" />
+          <span className="name">{props.name}</span>
         </div>
-        <span className="handle">@SirIsaac</span>
+        <span className="handle">{props.handle}</span>
       </header>
-      <p className="tweetText">If I have seen further it is by standing on the shoulders of giants</p>
+      <p className="tweetText">{props.text}</p>
       <footer>
         <span className="daysSince">4 years ago</span>
         <div className="icons">

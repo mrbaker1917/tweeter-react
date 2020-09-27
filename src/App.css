@@ -32,9 +32,15 @@ body {
   width: 100%;
   background-color: inherit;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   margin-top: 100px;
   width: 60%;
   margin: 165px 1.5em 0 1.5em;
+}
+
+.row-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

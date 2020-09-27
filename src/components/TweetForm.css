@@ -1,6 +1,5 @@
-
 .new-tweet {
-  width: 90%;
+  width: 100%;
   font-weight: 700;
   color: grey;
   margin-top: 20px;
@@ -9,6 +8,7 @@
 
 .tweet-btn-form {
   color: #ffffff;
+  background-color: #4056A1;
 }
 
 .tweet-btn-form:hover {

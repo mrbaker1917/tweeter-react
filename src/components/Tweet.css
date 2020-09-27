@@ -43,7 +43,7 @@ div.avatar img {
   color: lightsteelblue;
 }
 
-article.tweet:hover #icons {
+article.tweet:hover .icons {
   opacity: 1.0;
 }
 
@@ -64,6 +64,10 @@ article.tweet:hover .handle {
   justify-content: space-between;
   width: 10%;
   opacity: 0.1;
+}
+.icons > button {
+  border: 0;
+  color: #4056A1;
 }
 
 .tweet footer {
