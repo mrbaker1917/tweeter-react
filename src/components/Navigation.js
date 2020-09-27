@@ -1,4 +1,5 @@
 import React from 'react';
+import './Navigation.css';
 
 
 export const Navigation = () => {
@@ -6,7 +7,7 @@ export const Navigation = () => {
   return (
     <nav>
       <div>
-        <span className="brandName"><button>tweeter</button></span>
+        <button className="home-button">Tweeter</button>
       </div>
       <div className="writeTweet">
         <button title="Click here to make a new tweet!" className="tweet-btn-form">

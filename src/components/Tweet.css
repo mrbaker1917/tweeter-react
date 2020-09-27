@@ -1,4 +1,4 @@
-article.tweet header {
+.tweet header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,7 +51,7 @@ article.tweet:hover .handle {
   opacity: 1.0;
 }
 
-p.tweetText {
+.tweetText {
   font-size: smaller;
   font-weight: 600;
   margin-left: 20px;
@@ -66,7 +66,7 @@ p.tweetText {
   opacity: 0.1;
 }
 
-article.tweet footer {
+.tweet footer {
   border-top: 4px solid black;
   width: 98%;
   margin: 5px;

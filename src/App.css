@@ -21,46 +21,20 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 
- main {
-   width: 100vw;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- }
-
- @media only screen and (min-width: 1024px) {
-  #main-container {
-   width: 100%;
-   background-color: inherit;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
- }
- main {
-   margin-top: 100px;
-   width: 60%;
-   margin: 165px 1.5em 0 1.5em;
- }
-  header {
-   width: 40%;
-   margin: 200px 1.5em 0 1.5em;
- }
- nav {
-  background-color: #4056A1;
- }
- .handle {
-   justify-self: right;
- }
- article.tweet header {
-   width: 95%;
- }
+ main.container {
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 60%;
+  margin: 165px 1.5em 0 1.5em;
 }
